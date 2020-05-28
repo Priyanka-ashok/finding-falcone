@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.scss";
 
-function Header() {
+export const Header = () => {
   return (
     <div className="header">
       <h1>Finding Falcone !</h1>
